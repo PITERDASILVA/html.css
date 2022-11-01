@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, #EEEDD1, #F0ED8B);
+}
+main{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #6b6e6488;
+    width: 600px; /*se usa o width aqui para não passar a largura do site*/
+    margin: auto;
+    padding: 10px; /*padding aqui serve para aumentar a distância entre os paragrafos*/
+}
+h1{
+    font: 2em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    color: #6B6E64;
+    text-align: center;
+    text-shadow: 1px 1px 2px #F0ED8B;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px #6b6e647e;
+    color: #5E7033;
+}
+p{
+    text-align: justify;   
+    font-family: 'Inter Tight', sans-serif;
+}

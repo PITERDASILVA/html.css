@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(90deg, #05FA4A, #5409AD);
+}
+main{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #05fa4a70;
+    background-color: aliceblue;
+}
+#titulo{
+    font: bold 3em Arial, serif;
+    color: #dda44d;
+    text-shadow: 1px 1px 2px #05fa4a7e;
+    text-align: center;
+}
+.sub{
+    font: bold 2.5em 'Times New Roman', Times, serif;
+    color: #AD9674;
+    text-shadow: 1px 1px 2px #5309ad73;
+    text-align: center;
+}
+#one{
+    font: 1.5em Arial, sans-serif;
+    text-align: left;
+}
+#two{
+    font: italic 1.2em Verdana, sans-serif;
+    text-align: right;
+}
+#tree{
+    font: bold 1em 'Penguin', sans-serif;
+    text-align: center;
+}
+#for{
+    font: bolder 0.8 'Times', sans-serif;
+    text-align: justify ;
+}
+.especial{
+    font: bold 1em 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 1px 1px 2px #5309ad73;
+    text-decoration: none;
+}
+.especial:hover{
+    text-decoration: underline;
+    background-color: #5409AD;
+    color: #05FA4A;
+}
+.especial::before{
+    content: '>>';
+    font-weight: lighter;
+}
+.especial::after{
+    content: '<<';
+    font-weight: lighter;
+}
+div > p{
+    display: none;
+    text-align: justify;
+}
+div:hover > p{
+    display: block;
+}
+a:visited{
+    color:#05FA4A
+}
+a:active{
+    color: black;
+}

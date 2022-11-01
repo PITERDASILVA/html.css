@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(90deg, #ff0015,#ffff10, #00ff00);
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    text-align: justify;   
+    font: 1em Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  5px 5px 15px black;
+    background-color: azure;
+}
+h1{
+    font: bolder 3em "NEw Time Roman", Times, serif;
+}
+h2{
+    font: bolder 2em 'New Time Roman', Times, serif;
+}
