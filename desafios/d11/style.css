@@ -1,0 +1,12 @@
+body{
+    background: black url(image/espaco.jpg) center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 18%);
+    
+}
