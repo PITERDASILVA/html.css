@@ -1,12 +1,19 @@
-body{
-    background: black url(image/espaco.jpg) center center no-repeat fixed;
+body {
+    background: black url(image/espaco.jpg);
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
+    height: 97vh;
 }
-main{
+
+div#img1 {
+    background-image: url('image/astronauta.png');
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 18%);
-    
+    background-position: center center; 
+    background-size: cover;
+    width: 400px;  
+    height: 400px;
+    top: 20%;
+    left: 35%;
+
 }
