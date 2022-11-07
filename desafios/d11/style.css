@@ -13,12 +13,14 @@ div#img1 {
     background-size: cover;
     width: 400px;  
     height: 400px;
-    top: 20%;
-    left: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 main{
     width: 400px;
     background-color: white;
     border-radius: 10px;
     margin: auto;
+    margin-right: 50px;
 }
