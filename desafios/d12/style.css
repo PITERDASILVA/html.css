@@ -51,8 +51,7 @@ section{
 }
 section p{
     font-size: 3.5vw;
-    padding: 20px;
-    margin: 50px 20px;
+    padding-bottom: 10vw;
     line-height: 2em;
     font-family: var(--font-texto);
 }
@@ -66,16 +65,17 @@ section p{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 300px;
+    min-width: 90vw;
     height: 60vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.315);
 }
 #escritura{
     background-image: url('imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 300vw;
+    min-width: 90vw;
     height: 60vw;
     font-size: 10vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
@@ -92,6 +92,7 @@ section p{
     font-family: var(--font-texto);
     display: inline-block;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
+    text-shadow: 1px 1px 1px 10px black;
 }
 footer{
     background-color: black;
