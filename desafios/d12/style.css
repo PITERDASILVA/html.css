@@ -24,13 +24,15 @@ header h1{
     font-family: var(--font-titulo);
     color: white;
     font-size: 10vw;
-    padding: 20px;
+    padding: 50px;
     font-style: light;
+    font-variant: small-caps;
 }
 header p{
     color: white;
     font-family: var(--font-titulo);
     font-size: 2vw;
+    padding-bottom: 50px;
 }
 header a{
     color: white;
@@ -42,11 +44,16 @@ header a:hover{
     transition: 0.5s;
     padding: 5px;
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
 section p{
     font-size: 3.5vw;
     padding: 20px;
     margin: 50px 20px;
-    line-height: 6.5vw;
+    line-height: 2em;
     font-family: var(--font-texto);
 }
 .branco{
@@ -59,7 +66,7 @@ section p{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 300vw;
+    min-width: 300px;
     height: 60vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
 }
@@ -70,19 +77,18 @@ section p{
     background-repeat: no-repeat;
     min-width: 300vw;
     height: 60vw;
-    font-size: 10hv;
+    font-size: 10vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
 }
 .text{
     background: rgba(0, 0, 0, 0.521);
     background-position: right center;
     color: white;
-    line-height: 6.5vw;
-    margin: 5vw;
+    padding-left: 30px;
     border-radius: 5px;
     padding: 1vw;
     width: 42vw;
-    height: 45vw;
+    height: 50vw;
     font-family: var(--font-texto);
     display: inline-block;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
