@@ -59,7 +59,7 @@ section p{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 300px;
+    min-width: 300vw;
     height: 60vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
 }
@@ -68,7 +68,7 @@ section p{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 300px;
+    min-width: 300vw;
     height: 60vw;
     font-size: 10hv;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
